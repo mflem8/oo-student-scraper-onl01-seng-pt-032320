@@ -33,5 +33,5 @@ class Scraper
     end
   end
 
-  student
+  students
 end
