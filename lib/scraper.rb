@@ -19,6 +19,7 @@ class Scraper
 
   def self.scrape_profile_page(profile_url)
     student = {}
+    links = profile_page.css(".social-icon-container").children.css("a").map { |el| el.attribute('href').value}
 
   end
 end
